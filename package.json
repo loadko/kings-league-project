@@ -38,6 +38,7 @@
       "plugin:astro/recommended"
     ],
     "rules": {
+      "no-unused-vars": "off",
       "space-before-function-paren": "off"
     },
     "overrides": [
