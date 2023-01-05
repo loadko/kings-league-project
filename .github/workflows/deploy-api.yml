@@ -1,0 +1,22 @@
+name: Deploy API
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    name: Deploy API to Cloudflare Workers
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository }} # deploy only if the push is from the main repo
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm ci
+      - uses: cloudflare/wrangler-action@2.0.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          workingDirectory: api
