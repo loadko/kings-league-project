@@ -1,11 +1,5 @@
 import * as cheerio from 'cheerio'
-import { readFile, writeFile } from 'node:fs/promises'
-import path from 'node:path'
-
-// import TEAMS from '../db/teams.json' assert { type: 'json' }
-const DB_PATH = path.join(process.cwd(), 'db')
-const DB_TEAMS_PATH = path.join(DB_PATH, 'teams.json')
-const TEAMS = await readFile(DB_TEAMS_PATH, 'utf-8').then(JSON.parse)
+import { PRESIDENTS, TEAMS, writeDbFile } from '../db/index.js'
 
 const URLS = {
   leaderboard: 'https://kingsleague.pro/estadisticas/clasificacion/'
@@ -31,7 +25,14 @@ async function getLeaderBoard() {
     cardsRed: { selector: '.fs-table-text_9', typeOf: 'number' }
   }
 
-  const getTeamFromName = ({ name }) => TEAMS.find((team) => team.name === name)
+  const getTeamFromName = ({ name }) => {
+    const { presidentId, ...restOfTeam } = TEAMS.find((team) => team.name === name)
+    const president = PRESIDENTS.find((president) => president.id === presidentId)
+    return {
+      ...restOfTeam,
+      president
+    }
+  }
 
   const clearText = (text) =>
     text
@@ -44,18 +45,15 @@ async function getLeaderBoard() {
 
   $rows.each((index, row) => {
     const $el = $(row)
-    const leaderBoardEntries = leaderBoardSelectorEntries.map(
-      ([key, { selector, typeOf }]) => {
-        const rawValue = $el.find(selector).text()
-        const valueCleaned = clearText(rawValue)
-        const value = typeOf === 'number' ? Number(valueCleaned) : valueCleaned
+    const leaderBoardEntries = leaderBoardSelectorEntries.map(([key, { selector, typeOf }]) => {
+      const rawValue = $el.find(selector).text()
+      const valueCleaned = clearText(rawValue)
+      const value = typeOf === 'number' ? Number(valueCleaned) : valueCleaned
 
-        return [key, value]
-      }
-    )
+      return [key, value]
+    })
 
-    const { team: teamName, ...leaderBoardTeam } =
-      Object.fromEntries(leaderBoardEntries)
+    const { team: teamName, ...leaderBoardTeam } = Object.fromEntries(leaderBoardEntries)
     const team = getTeamFromName({ name: teamName })
 
     leaderBoard.push({
@@ -67,5 +65,4 @@ async function getLeaderBoard() {
   return leaderBoard
 }
 const leaderBoard = await getLeaderBoard()
-const filePath = path.join(DB_PATH, 'leaderboard.json')
-await writeFile(filePath, JSON.stringify(leaderBoard, null, 2), 'utf-8')
+await writeDbFile('leaderboard', leaderBoard)
