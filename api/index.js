@@ -31,6 +31,12 @@ app.get('/teams', (ctx) => {
   return ctx.json(teams)
 })
 
+app.get('/teams/:id', (ctx) => {
+  const id = ctx.req.param('id')
+  const team = teams.find((team) => team.id === id)
+  return team ? ctx.json(team) : ctx.json({ message: 'Team not found' }, 404)
+})
+
 app.get('/presidents', (ctx) => {
   return ctx.json(presidents)
 })
@@ -38,7 +44,9 @@ app.get('/presidents', (ctx) => {
 app.get('/presidents/:id', (ctx) => {
   const id = ctx.req.param('id')
   const president = presidents.find((president) => president.id === id)
-  return president ? ctx.json(president) : ctx.json({ message: 'President not found' }, 404)
+  return president
+    ? ctx.json(president)
+    : ctx.json({ message: 'President not found' }, 404)
 })
 
 app.get('/static/*', serveStatic({ root: './' }))
