@@ -2,13 +2,13 @@ name: Scrape Kings League Website
 
 on:
   workflow_dispatch:
-    
+
   repository_dispatch:
     types:
-     - webhook
+      - webhook
 
   schedule:
-    - cron: "0 */1 * * 0"
+    - cron: '0 */1 * * 0'
 
 jobs:
   build:
@@ -20,7 +20,7 @@ jobs:
           node-version: 18
       - run: npm ci
       - run: |
-          node scraping/leaderboard.js
+          npm run scrape
           git config user.name kings-league-bot
           git add -A
           git commit -m "[bot] Update Kings League Database"
