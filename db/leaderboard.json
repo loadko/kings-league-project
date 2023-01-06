@@ -22,7 +22,7 @@
       }
     },
     "wins": 1,
-    "loses": 0,
+    "losses": 0,
     "goalsScored": 5,
     "goalsConceded": 0,
     "cardsYellow": 0,
@@ -36,9 +36,7 @@
       "url": "",
       "channel": "https://youtube.com/DjMaRiiO",
       "coach": "???",
-      "socialNetworks": [
-        "https://m.youtube.com/user/DjMaRiiO/videos"
-      ],
+      "socialNetworks": ["https://m.youtube.com/user/DjMaRiiO/videos"],
       "players": [],
       "president": {
         "id": "djmariio",
@@ -48,7 +46,7 @@
       }
     },
     "wins": 1,
-    "loses": 0,
+    "losses": 0,
     "goalsScored": 5,
     "goalsConceded": 1,
     "cardsYellow": 0,
@@ -77,7 +75,7 @@
       }
     },
     "wins": 1,
-    "loses": 0,
+    "losses": 0,
     "goalsScored": 5,
     "goalsConceded": 3,
     "cardsYellow": 1,
@@ -106,7 +104,7 @@
       }
     },
     "wins": 1,
-    "loses": 0,
+    "losses": 0,
     "goalsScored": 4,
     "goalsConceded": 2,
     "cardsYellow": 0,
@@ -120,9 +118,7 @@
       "url": "",
       "channel": "https://twitch.tv/thegrefg",
       "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/thegrefg"
-      ],
+      "socialNetworks": ["https://www.twitch.tv/thegrefg"],
       "players": [],
       "president": {
         "id": "thegrefg",
@@ -132,7 +128,7 @@
       }
     },
     "wins": 1,
-    "loses": 0,
+    "losses": 0,
     "goalsScored": 4,
     "goalsConceded": 2,
     "cardsYellow": 1,
@@ -146,9 +142,7 @@
       "url": "",
       "channel": "https://twitch.tv/slakun10",
       "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/slakun10"
-      ],
+      "socialNetworks": ["https://www.twitch.tv/slakun10"],
       "players": [],
       "president": {
         "id": "kun-aguero",
@@ -158,7 +152,7 @@
       }
     },
     "wins": 1,
-    "loses": 0,
+    "losses": 0,
     "goalsScored": 2,
     "goalsConceded": 1,
     "cardsYellow": 1,
@@ -187,7 +181,7 @@
       }
     },
     "wins": 0,
-    "loses": 1,
+    "losses": 1,
     "goalsScored": 1,
     "goalsConceded": 2,
     "cardsYellow": 0,
@@ -201,10 +195,7 @@
       "url": "",
       "channel": "https://twitch.tv/ibai",
       "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/ibai",
-        "https://twitter.com/FCPorcinos"
-      ],
+      "socialNetworks": ["https://www.twitch.tv/ibai", "https://twitter.com/FCPorcinos"],
       "players": [],
       "president": {
         "id": "ibai-llanos",
@@ -214,7 +205,7 @@
       }
     },
     "wins": 0,
-    "loses": 1,
+    "losses": 1,
     "goalsScored": 2,
     "goalsConceded": 4,
     "cardsYellow": 1,
@@ -243,7 +234,7 @@
       }
     },
     "wins": 0,
-    "loses": 1,
+    "losses": 1,
     "goalsScored": 2,
     "goalsConceded": 4,
     "cardsYellow": 0,
@@ -257,9 +248,7 @@
       "url": "",
       "channel": "https://www.youtube.com/xbuyer",
       "coach": "???",
-      "socialNetworks": [
-        "https://www.youtube.com/xbuyer"
-      ],
+      "socialNetworks": ["https://www.youtube.com/xbuyer"],
       "players": [],
       "president": {
         "id": "hnos-buyer",
@@ -269,7 +258,7 @@
       }
     },
     "wins": 0,
-    "loses": 1,
+    "losses": 1,
     "goalsScored": 2,
     "goalsConceded": 5,
     "cardsYellow": 1,
@@ -283,9 +272,7 @@
       "url": "",
       "channel": "https://twitch.tv/juansguarnizo",
       "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/juansguarnizo"
-      ],
+      "socialNetworks": ["https://www.twitch.tv/juansguarnizo"],
       "players": [],
       "president": {
         "id": "juan-guarnizo",
@@ -295,7 +282,7 @@
       }
     },
     "wins": 0,
-    "loses": 1,
+    "losses": 1,
     "goalsScored": 1,
     "goalsConceded": 5,
     "cardsYellow": 0,
@@ -309,10 +296,7 @@
       "url": "",
       "channel": "https://twitch.tv/rivers_gg",
       "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/rivers_gg",
-        "https://twitter.com/PIO_FC"
-      ],
+      "socialNetworks": ["https://www.twitch.tv/rivers_gg", "https://twitter.com/PIO_FC"],
       "players": [],
       "president": {
         "id": "rivers",
@@ -322,7 +306,7 @@
       }
     },
     "wins": 0,
-    "loses": 1,
+    "losses": 1,
     "goalsScored": 0,
     "goalsConceded": 5,
     "cardsYellow": 1,
