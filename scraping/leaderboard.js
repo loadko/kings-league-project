@@ -1,18 +1,7 @@
-import * as cheerio from 'cheerio'
-import { PRESIDENTS, TEAMS, writeDbFile } from '../db/index.js'
+import { PRESIDENTS, TEAMS } from '../db/index.js'
+import { clearText } from './utils.js'
 
-const URLS = {
-  leaderboard: 'https://kingsleague.pro/estadisticas/clasificacion/'
-}
-
-async function scrape(url) {
-  const res = await fetch(url)
-  const html = await res.text()
-  return cheerio.load(html)
-}
-
-async function getLeaderBoard() {
-  const $ = await scrape(URLS.leaderboard)
+export async function getLeaderboard($) {
   const $rows = $('table tbody tr')
 
   const LEADERBOARD_SELECTORS = {
@@ -34,18 +23,12 @@ async function getLeaderBoard() {
     }
   }
 
-  const clearText = (text) =>
-    text
-      .replace(/\t|\n|\s:/g, '')
-      .replace(/.*:/g, '')
-      .trim()
-
-  const leaderBoardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS)
-  const leaderBoard = []
+  const leaderboardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS)
+  const leaderboard = []
 
   $rows.each((index, row) => {
     const $el = $(row)
-    const leaderBoardEntries = leaderBoardSelectorEntries.map(([key, { selector, typeOf }]) => {
+    const leaderBoardEntries = leaderboardSelectorEntries.map(([key, { selector, typeOf }]) => {
       const rawValue = $el.find(selector).text()
       const valueCleaned = clearText(rawValue)
       const value = typeOf === 'number' ? Number(valueCleaned) : valueCleaned
@@ -53,16 +36,14 @@ async function getLeaderBoard() {
       return [key, value]
     })
 
-    const { team: teamName, ...leaderBoardTeam } = Object.fromEntries(leaderBoardEntries)
+    const { team: teamName, ...leaderboardTeam } = Object.fromEntries(leaderBoardEntries)
     const team = getTeamFromName({ name: teamName })
 
-    leaderBoard.push({
+    leaderboard.push({
       team,
-      ...leaderBoardTeam
+      ...leaderboardTeam
     })
   })
 
-  return leaderBoard
+  return leaderboard
 }
-const leaderBoard = await getLeaderBoard()
-await writeDbFile('leaderboard', leaderBoard)
