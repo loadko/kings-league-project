@@ -36,7 +36,9 @@
       "url": "",
       "channel": "https://youtube.com/DjMaRiiO",
       "coach": "???",
-      "socialNetworks": ["https://m.youtube.com/user/DjMaRiiO/videos"],
+      "socialNetworks": [
+        "https://m.youtube.com/user/DjMaRiiO/videos"
+      ],
       "players": [],
       "president": {
         "id": "djmariio",
@@ -118,7 +120,9 @@
       "url": "",
       "channel": "https://twitch.tv/thegrefg",
       "coach": "???",
-      "socialNetworks": ["https://www.twitch.tv/thegrefg"],
+      "socialNetworks": [
+        "https://www.twitch.tv/thegrefg"
+      ],
       "players": [],
       "president": {
         "id": "thegrefg",
@@ -142,7 +146,9 @@
       "url": "",
       "channel": "https://twitch.tv/slakun10",
       "coach": "???",
-      "socialNetworks": ["https://www.twitch.tv/slakun10"],
+      "socialNetworks": [
+        "https://www.twitch.tv/slakun10"
+      ],
       "players": [],
       "president": {
         "id": "kun-aguero",
@@ -195,7 +201,10 @@
       "url": "",
       "channel": "https://twitch.tv/ibai",
       "coach": "???",
-      "socialNetworks": ["https://www.twitch.tv/ibai", "https://twitter.com/FCPorcinos"],
+      "socialNetworks": [
+        "https://www.twitch.tv/ibai",
+        "https://twitter.com/FCPorcinos"
+      ],
       "players": [],
       "president": {
         "id": "ibai-llanos",
@@ -248,7 +257,9 @@
       "url": "",
       "channel": "https://www.youtube.com/xbuyer",
       "coach": "???",
-      "socialNetworks": ["https://www.youtube.com/xbuyer"],
+      "socialNetworks": [
+        "https://www.youtube.com/xbuyer"
+      ],
       "players": [],
       "president": {
         "id": "hnos-buyer",
@@ -272,7 +283,9 @@
       "url": "",
       "channel": "https://twitch.tv/juansguarnizo",
       "coach": "???",
-      "socialNetworks": ["https://www.twitch.tv/juansguarnizo"],
+      "socialNetworks": [
+        "https://www.twitch.tv/juansguarnizo"
+      ],
       "players": [],
       "president": {
         "id": "juan-guarnizo",
@@ -296,7 +309,10 @@
       "url": "",
       "channel": "https://twitch.tv/rivers_gg",
       "coach": "???",
-      "socialNetworks": ["https://www.twitch.tv/rivers_gg", "https://twitter.com/PIO_FC"],
+      "socialNetworks": [
+        "https://www.twitch.tv/rivers_gg",
+        "https://twitter.com/PIO_FC"
+      ],
       "players": [],
       "president": {
         "id": "rivers",
