@@ -23,11 +23,11 @@ app.get('/', (ctx) => {
   ])
 })
 
-app.get('/leaderboard\\/?', (ctx) => {
+app.get('/leaderboard', (ctx) => {
   return ctx.json(leaderboard)
 })
 
-app.get('/teams\\/?', (ctx) => {
+app.get('/teams', (ctx) => {
   return ctx.json(teams)
 })
 
@@ -37,18 +37,27 @@ app.get('/teams/:id', (ctx) => {
   return team ? ctx.json(team) : ctx.json({ message: 'Team not found' }, 404)
 })
 
-app.get('/presidents\\/?', (ctx) => {
+app.get('/presidents', (ctx) => {
   return ctx.json(presidents)
 })
 
 app.get('/presidents/:id', (ctx) => {
   const id = ctx.req.param('id')
   const president = presidents.find((president) => president.id === id)
-  return president
-    ? ctx.json(president)
-    : ctx.json({ message: 'President not found' }, 404)
+  return president ? ctx.json(president) : ctx.json({ message: 'President not found' }, 404)
 })
 
 app.get('/static/*', serveStatic({ root: './' }))
+
+app.notFound((ctx) => {
+  const url = ctx.req.url
+  const { pathname } = new URL(url)
+
+  if (pathname.at(-1) === '/') {
+    return ctx.redirect(pathname.slice(0, -1))
+  }
+
+  return ctx.json({ message: 'Not found' }, 404)
+})
 
 export default app
