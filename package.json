@@ -11,6 +11,7 @@
     "dev": "astro dev",
     "preview": "astro preview",
     "publish:api": "wrangler publish api/index.js",
+    "scrape": "node --no-warnings scraping/index.js",
     "start": "astro dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,6 +27,7 @@
   "devDependencies": {
     "astro": "1.9.0",
     "eslint-plugin-astro": "0.21.1",
+    "picocolors": "1.0.0",
     "prettier": "2.8.1",
     "prettier-plugin-astro": "0.7.2",
     "standard": "17.0.0",
