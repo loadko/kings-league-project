@@ -1,5 +1,4 @@
-import { PRESIDENTS, TEAMS } from '../db/index.js'
-import { clearText } from './utils.js'
+import { getElementValue, getTeamFromName } from './utils.js'
 
 export async function getLeaderboard($) {
   const $rows = $('table tbody tr')
@@ -14,24 +13,13 @@ export async function getLeaderboard($) {
     cardsRed: { selector: '.fs-table-text_9', typeOf: 'number' }
   }
 
-  const getTeamFromName = ({ name }) => {
-    const { presidentId, ...restOfTeam } = TEAMS.find((team) => team.name === name)
-    const president = PRESIDENTS.find((president) => president.id === presidentId)
-    return {
-      ...restOfTeam,
-      president
-    }
-  }
-
   const leaderboardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS)
   const leaderboard = []
 
   $rows.each((index, row) => {
-    const $el = $(row)
+    const $row = $(row)
     const leaderBoardEntries = leaderboardSelectorEntries.map(([key, { selector, typeOf }]) => {
-      const rawValue = $el.find(selector).text()
-      const valueCleaned = clearText(rawValue)
-      const value = typeOf === 'number' ? Number(valueCleaned) : valueCleaned
+      const value = getElementValue($row, selector, typeOf)
 
       return [key, value]
     })

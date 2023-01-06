@@ -1,5 +1,5 @@
 import { TEAMS } from '../db/index.js'
-import { clearText } from './utils.js'
+import { clearText, getElementValue, getTeamImageFromTeamName } from './utils.js'
 
 export async function getMvp($) {
   const $rows = $('table tbody tr')
@@ -11,11 +11,6 @@ export async function getMvp($) {
     mvps: { selector: '.fs-table-text_6', typeOf: 'number' }
   }
 
-  const getTeamImageFromTeamName = ({ name }) => {
-    const { image } = TEAMS.find((team) => team.name === name)
-    return image
-  }
-
   const mvpSelectorsEntries = Object.entries(MVP_SELECTORS)
   const mvp = []
 
@@ -23,9 +18,7 @@ export async function getMvp($) {
     const $row = $(row)
 
     const mvpEntries = mvpSelectorsEntries.map(([key, { selector, typeOf }]) => {
-      const rawValue = $row.find(selector).text()
-      const valueCleaned = clearText(rawValue)
-      const value = typeOf === 'number' ? Number(valueCleaned) : valueCleaned
+      const value = getElementValue($row, selector, typeOf)
 
       return [key, value]
     })

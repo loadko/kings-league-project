@@ -1,8 +1,9 @@
 import * as cheerio from 'cheerio'
-import { writeDbFile } from '../db/index.js'
+import { PRESIDENTS, TEAMS, writeDbFile } from '../db/index.js'
 import { getLeaderboard } from './leaderboard.js'
 import { logError, logInfo, logSuccess } from './log.js'
 import { getMvp } from './mvp.js'
+import { getTopScorers } from './top-scorer.js'
 
 export const SCRAPINGS = {
   leaderboard: {
@@ -12,6 +13,10 @@ export const SCRAPINGS = {
   mvp: {
     url: 'https://kingsleague.pro/estadisticas/mvp/',
     scraper: getMvp
+  },
+  'top-scorer': {
+    url: 'https://kingsleague.pro/estadisticas/goles/',
+    scraper: getTopScorers
   }
 }
 
@@ -20,6 +25,14 @@ export const clearText = (text) =>
     .replace(/\t|\n|\s:/g, '')
     .replace(/.*:/g, '')
     .trim()
+
+export function getElementValue($, selector, typeOf) {
+  const rawValue = $.find(selector).text()
+  const valueCleaned = clearText(rawValue)
+  const value = typeOf === 'number' ? Number(valueCleaned) : valueCleaned
+
+  return value
+}
 
 export async function scrape(url) {
   const res = await fetch(url)
@@ -49,4 +62,18 @@ export async function scrapeAndSave(name) {
     const time = (end - start) / 1000
     logInfo(`[${name}] scrape in ${time} seconds`)
   }
+}
+
+export function getTeamFromName({ name }) {
+  const { presidentId, ...restOfTeam } = TEAMS.find((team) => team.name === name)
+  const president = PRESIDENTS.find((president) => president.id === presidentId)
+  return {
+    ...restOfTeam,
+    president
+  }
+}
+
+export function getTeamImageFromTeamName({ name }) {
+  const { image } = TEAMS.find((team) => team.name === name)
+  return image
 }
