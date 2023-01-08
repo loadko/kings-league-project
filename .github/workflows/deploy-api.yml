@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-22.04
-    name: Deploy API to Cloudflare Workers
+    name: Deploy API
     # if: ${{ github.event.pull_request.head.repo.full_name == github.repository }} # deploy only if the push is from the main repo
     steps:
       - uses: actions/checkout@v3
