@@ -4,6 +4,7 @@ import leaderboard from '../db/leaderboard.json'
 import teams from '../db/teams.json'
 import presidents from '../db/presidents.json'
 import topScorers from '../db/top-scorers.json'
+import mvp from '../db/mvp.json'
 
 const app = new Hono()
 
@@ -24,6 +25,10 @@ app.get('/', (ctx) => {
     {
       endpoint: '/top-scorers',
       description: 'Returns Kings League top scorers'
+    },
+    {
+      endpoint: '/mvp',
+      description: 'Returns Kings League Most Valuable Players'
     }
   ])
 })
@@ -51,6 +56,8 @@ app.get('/presidents/:id', (ctx) => {
   const president = presidents.find((president) => president.id === id)
   return president ? ctx.json(president) : ctx.json({ message: 'President not found' }, 404)
 })
+
+app.get('/mvp', (ctx) => ctx.json(mvp))
 
 app.get('/top-scorers', (ctx) => ctx.json(topScorers))
 
