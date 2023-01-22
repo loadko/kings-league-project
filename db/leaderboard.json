@@ -1,89 +1,89 @@
 [
   {
     "team": {
-      "id": "ultimate-mostoles",
-      "name": "Ultimate Móstoles",
-      "image": "https://kings-league-api.loadko.workers.dev/static/logos/ultimate-mostoles.svg",
+      "id": "saiyans-fc",
+      "name": "Saiyans FC",
+      "image": "https://kings-league-api.loadko.workers.dev/static/logos/saiyans-fc.svg",
       "url": "",
-      "channel": "https://youtube.com/DjMaRiiO",
+      "channel": "https://twitch.tv/thegrefg",
       "coach": "???",
       "socialNetworks": [
-        "https://m.youtube.com/user/DjMaRiiO/videos"
+        "https://www.twitch.tv/thegrefg"
       ],
       "players": [
         {
-          "name": "Juanma Glez",
+          "name": "Alfaya Jr.",
           "role": "jugador 11",
-          "image": "ultimate-mostoles-juanma-glez.png"
+          "image": "saiyans-fc-alfaya-jr.png"
         },
         {
-          "name": "Arché",
-          "role": "Medio",
-          "image": "ultimate-mostoles-arch.png"
-        },
-        {
-          "name": "Iu",
+          "name": "Briones",
           "role": "Portero",
-          "image": "ultimate-mostoles-iu.png"
+          "image": "saiyans-fc-briones.png"
         },
         {
-          "name": "Guti",
+          "name": "Gio Ferinu",
+          "role": "Delantero",
+          "image": "saiyans-fc-gio-ferinu.png"
+        },
+        {
+          "name": "Campu",
           "role": "Defensa",
-          "image": "ultimate-mostoles-guti.png"
+          "image": "saiyans-fc-campu.png"
         },
         {
-          "name": "Aleix",
+          "name": "Temo",
           "role": "Medio",
-          "image": "ultimate-mostoles-aleix.png"
+          "image": "saiyans-fc-temo.png"
         },
         {
-          "name": "Llur",
-          "role": "Delantero",
-          "image": "ultimate-mostoles-llur.png"
+          "name": "C. Valle",
+          "role": "Medio",
+          "image": "saiyans-fc-c-valle.png"
         },
         {
-          "name": "Iker",
+          "name": "V. Torres",
           "role": "Defensa",
-          "image": "ultimate-mostoles-iker.png"
+          "image": "saiyans-fc-v-torres.png"
         },
         {
-          "name": "Ian",
-          "role": "Defensa",
-          "image": "ultimate-mostoles-ian.png"
+          "name": "Feliu",
+          "role": "Medio",
+          "image": "saiyans-fc-feliu.png"
         },
         {
-          "name": "Zea",
+          "name": "David Alba",
           "role": "Delantero",
-          "image": "ultimate-mostoles-zea.png"
+          "image": "saiyans-fc-david-alba.png"
         },
         {
-          "name": "Nacho",
+          "name": "R. Carbó",
+          "role": "Medio",
+          "image": "saiyans-fc-r-carbó.png"
+        },
+        {
+          "name": "Fajardo",
           "role": "Portero",
-          "image": "ultimate-mostoles-nacho.png"
-        },
-        {
-          "name": "Lucca",
-          "role": "Medio",
-          "image": "ultimate-mostoles-lucca.png"
+          "image": "saiyans-fc-fajardo.png"
         }
       ],
       "coachInfo": {
-        "name": "Nacho Castro",
-        "image": "nacho-castro.png"
+        "name": "Daniel Romo",
+        "image": "daniel-romo.png"
       },
       "president": {
-        "id": "djmariio",
-        "name": "DjMaRiiO",
-        "image": "https://kings-league-api.loadko.workers.dev/static/presidents/djmariio.png",
-        "teamId": "ultimate-mostoles"
+        "id": "thegrefg",
+        "name": "TheGrefg",
+        "image": "https://kings-league-api.loadko.workers.dev/static/presidents/thegrefg.png",
+        "teamId": "saiyans-fc"
       }
     },
-    "wins": 2,
+    "wins": 3,
     "losses": 0,
-    "goalsScored": 8,
-    "goalsConceded": 3,
-    "cardsYellow": 1,
-    "cardsRed": 0
+    "goalsScored": 10,
+    "goalsConceded": 4,
+    "cardsYellow": 3,
+    "cardsRed": 1
   },
   {
     "team": {
@@ -167,97 +167,11 @@
         "teamId": "1k"
       }
     },
-    "wins": 2,
+    "wins": 3,
     "losses": 0,
-    "goalsScored": 7,
-    "goalsConceded": 4,
+    "goalsScored": 12,
+    "goalsConceded": 7,
     "cardsYellow": 0,
-    "cardsRed": 0
-  },
-  {
-    "team": {
-      "id": "saiyans-fc",
-      "name": "Saiyans FC",
-      "image": "https://kings-league-api.loadko.workers.dev/static/logos/saiyans-fc.svg",
-      "url": "",
-      "channel": "https://twitch.tv/thegrefg",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/thegrefg"
-      ],
-      "players": [
-        {
-          "name": "Alfaya Jr.",
-          "role": "jugador 11",
-          "image": "saiyans-fc-alfaya-jr.png"
-        },
-        {
-          "name": "Briones",
-          "role": "Portero",
-          "image": "saiyans-fc-briones.png"
-        },
-        {
-          "name": "Gio Ferinu",
-          "role": "Delantero",
-          "image": "saiyans-fc-gio-ferinu.png"
-        },
-        {
-          "name": "Campu",
-          "role": "Defensa",
-          "image": "saiyans-fc-campu.png"
-        },
-        {
-          "name": "Temo",
-          "role": "Medio",
-          "image": "saiyans-fc-temo.png"
-        },
-        {
-          "name": "C. Valle",
-          "role": "Medio",
-          "image": "saiyans-fc-c-valle.png"
-        },
-        {
-          "name": "V. Torres",
-          "role": "Defensa",
-          "image": "saiyans-fc-v-torres.png"
-        },
-        {
-          "name": "Feliu",
-          "role": "Medio",
-          "image": "saiyans-fc-feliu.png"
-        },
-        {
-          "name": "David Alba",
-          "role": "Delantero",
-          "image": "saiyans-fc-david-alba.png"
-        },
-        {
-          "name": "R. Carbó",
-          "role": "Medio",
-          "image": "saiyans-fc-r-carbó.png"
-        },
-        {
-          "name": "Fajardo",
-          "role": "Portero",
-          "image": "saiyans-fc-fajardo.png"
-        }
-      ],
-      "coachInfo": {
-        "name": "Daniel Romo",
-        "image": "daniel-romo.png"
-      },
-      "president": {
-        "id": "thegrefg",
-        "name": "TheGrefg",
-        "image": "https://kings-league-api.loadko.workers.dev/static/presidents/thegrefg.png",
-        "teamId": "saiyans-fc"
-      }
-    },
-    "wins": 2,
-    "losses": 0,
-    "goalsScored": 5,
-    "goalsConceded": 3,
-    "cardsYellow": 3,
     "cardsRed": 0
   },
   {
@@ -340,9 +254,271 @@
       }
     },
     "wins": 2,
-    "losses": 0,
-    "goalsScored": 3,
-    "goalsConceded": 1,
+    "losses": 1,
+    "goalsScored": 5,
+    "goalsConceded": 3,
+    "cardsYellow": 2,
+    "cardsRed": 0
+  },
+  {
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "https://kings-league-api.loadko.workers.dev/static/logos/los-troncos.svg",
+      "url": "",
+      "channel": "https://twitch.tv/perxitaa",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.twitch.tv/perxitaa",
+        "https://www.instagram.com/troncosfc.oficial/",
+        "https://twitter.com/lostroncosfc_/",
+        "https://www.tiktok.com/@lostroncosfc_"
+      ],
+      "players": [
+        {
+          "name": "C. Planas «Chopo»",
+          "role": "jugador 11",
+          "image": "los-troncos-fc-c-planas-«chopo».png"
+        },
+        {
+          "name": "E. Álvaro «Roble»",
+          "role": "Delantero",
+          "image": "los-troncos-fc-e-álvaro-«roble».png"
+        },
+        {
+          "name": "Lechuga",
+          "role": "Portero",
+          "image": "los-troncos-fc-lechuga.png"
+        },
+        {
+          "name": "D. Soriano «Olivo»",
+          "role": "Defensa",
+          "image": "los-troncos-fc-d-soriano-«olivo».png"
+        },
+        {
+          "name": "S. Sánchez «Drago»",
+          "role": "Medio",
+          "image": "los-troncos-fc-s-sánchez-«drago».png"
+        },
+        {
+          "name": "Noel L. «Ahuehuete»",
+          "role": "Medio",
+          "image": "los-troncos-fc-noel-l-«ahuehuete».png"
+        },
+        {
+          "name": "X. Molas «Mimosa»",
+          "role": "Medio",
+          "image": "los-troncos-fc-x-molas-«mimosa».png"
+        },
+        {
+          "name": "R. Martínez «Bonsai»",
+          "role": "Delantero",
+          "image": "los-troncos-fc-r-martínez-«bonsai».png"
+        },
+        {
+          "name": "Dorkis P. «Mango»",
+          "role": "Delantero",
+          "image": "los-troncos-fc-dorkis-p-«mango».png"
+        },
+        {
+          "name": "I. Nuevo «Ficus»",
+          "role": "Medio",
+          "image": "los-troncos-fc-i-nuevo-«ficus».png"
+        },
+        {
+          "name": "M. Arús «Pino»",
+          "role": "Portero",
+          "image": "los-troncos-fc-m-arús-«pino».png"
+        }
+      ],
+      "coachInfo": {
+        "name": "Pol Font",
+        "image": "pol-font.png"
+      },
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "https://kings-league-api.loadko.workers.dev/static/presidents/perxitaa.png",
+        "teamId": "los-troncos-fc"
+      }
+    },
+    "wins": 2,
+    "losses": 1,
+    "goalsScored": 11,
+    "goalsConceded": 10,
+    "cardsYellow": 2,
+    "cardsRed": 0
+  },
+  {
+    "team": {
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "https://kings-league-api.loadko.workers.dev/static/logos/ultimate-mostoles.svg",
+      "url": "",
+      "channel": "https://youtube.com/DjMaRiiO",
+      "coach": "???",
+      "socialNetworks": [
+        "https://m.youtube.com/user/DjMaRiiO/videos"
+      ],
+      "players": [
+        {
+          "name": "Juanma Glez",
+          "role": "jugador 11",
+          "image": "ultimate-mostoles-juanma-glez.png"
+        },
+        {
+          "name": "Arché",
+          "role": "Medio",
+          "image": "ultimate-mostoles-arch.png"
+        },
+        {
+          "name": "Iu",
+          "role": "Portero",
+          "image": "ultimate-mostoles-iu.png"
+        },
+        {
+          "name": "Guti",
+          "role": "Defensa",
+          "image": "ultimate-mostoles-guti.png"
+        },
+        {
+          "name": "Aleix",
+          "role": "Medio",
+          "image": "ultimate-mostoles-aleix.png"
+        },
+        {
+          "name": "Llur",
+          "role": "Delantero",
+          "image": "ultimate-mostoles-llur.png"
+        },
+        {
+          "name": "Iker",
+          "role": "Defensa",
+          "image": "ultimate-mostoles-iker.png"
+        },
+        {
+          "name": "Ian",
+          "role": "Defensa",
+          "image": "ultimate-mostoles-ian.png"
+        },
+        {
+          "name": "Zea",
+          "role": "Delantero",
+          "image": "ultimate-mostoles-zea.png"
+        },
+        {
+          "name": "Nacho",
+          "role": "Portero",
+          "image": "ultimate-mostoles-nacho.png"
+        },
+        {
+          "name": "Lucca",
+          "role": "Medio",
+          "image": "ultimate-mostoles-lucca.png"
+        }
+      ],
+      "coachInfo": {
+        "name": "Nacho Castro",
+        "image": "nacho-castro.png"
+      },
+      "president": {
+        "id": "djmariio",
+        "name": "DjMaRiiO",
+        "image": "https://kings-league-api.loadko.workers.dev/static/presidents/djmariio.png",
+        "teamId": "ultimate-mostoles"
+      }
+    },
+    "wins": 2,
+    "losses": 1,
+    "goalsScored": 9,
+    "goalsConceded": 8,
+    "cardsYellow": 1,
+    "cardsRed": 0
+  },
+  {
+    "team": {
+      "id": "porcinos-fc",
+      "name": "Porcinos FC",
+      "image": "https://kings-league-api.loadko.workers.dev/static/logos/porcinos-fc.svg",
+      "url": "",
+      "channel": "https://twitch.tv/ibai",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.twitch.tv/ibai",
+        "https://twitter.com/FCPorcinos"
+      ],
+      "players": [
+        {
+          "name": "Tamudo",
+          "role": "jugador 11",
+          "image": "porcinos-fc-tamudo.png"
+        },
+        {
+          "name": "J. Segovia",
+          "role": "Portero",
+          "image": "porcinos-fc-j-segovia.png"
+        },
+        {
+          "name": "G.Cichero",
+          "role": "Defensa",
+          "image": "porcinos-fc-gcichero.png"
+        },
+        {
+          "name": "David L.L.",
+          "role": "Defensa",
+          "image": "porcinos-fc-david-ll..png"
+        },
+        {
+          "name": "Toti",
+          "role": "Medio",
+          "image": "porcinos-fc-toti.png"
+        },
+        {
+          "name": "A.Ripol",
+          "role": "Medio",
+          "image": "porcinos-fc-aripol.png"
+        },
+        {
+          "name": "Kilian",
+          "role": "Delantero",
+          "image": "porcinos-fc-kilian.png"
+        },
+        {
+          "name": "J. Blanco",
+          "role": "Delantero",
+          "image": "porcinos-fc-j-blanco.png"
+        },
+        {
+          "name": "Lil Pizza",
+          "role": "Defensa",
+          "image": "porcinos-fc-lil-pizza.png"
+        },
+        {
+          "name": "Lao",
+          "role": "Medio",
+          "image": "porcinos-fc-lao.png"
+        },
+        {
+          "name": "Sergi",
+          "role": "Portero",
+          "image": "porcinos-fc-sergi.png"
+        }
+      ],
+      "coachInfo": {
+        "name": "Juvenal Edjogo-Owono",
+        "image": "juvenal-edjogoowono.png"
+      },
+      "president": {
+        "id": "ibai-llanos",
+        "name": "Ibai Llanos",
+        "image": "https://kings-league-api.loadko.workers.dev/static/presidents/ibai-llanos.png",
+        "teamId": "porcinos-fc"
+      }
+    },
+    "wins": 2,
+    "losses": 1,
+    "goalsScored": 9,
+    "goalsConceded": 9,
     "cardsYellow": 1,
     "cardsRed": 0
   },
@@ -429,184 +605,8 @@
       }
     },
     "wins": 1,
-    "losses": 1,
-    "goalsScored": 7,
-    "goalsConceded": 3,
-    "cardsYellow": 1,
-    "cardsRed": 0
-  },
-  {
-    "team": {
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "https://kings-league-api.loadko.workers.dev/static/logos/los-troncos.svg",
-      "url": "",
-      "channel": "https://twitch.tv/perxitaa",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/perxitaa",
-        "https://www.instagram.com/troncosfc.oficial/",
-        "https://twitter.com/lostroncosfc_/",
-        "https://www.tiktok.com/@lostroncosfc_"
-      ],
-      "players": [
-        {
-          "name": "C. Planas «Chopo»",
-          "role": "jugador 11",
-          "image": "los-troncos-fc-c-planas-«chopo».png"
-        },
-        {
-          "name": "E. Álvaro «Roble»",
-          "role": "Delantero",
-          "image": "los-troncos-fc-e-álvaro-«roble».png"
-        },
-        {
-          "name": "Lechuga",
-          "role": "Portero",
-          "image": "los-troncos-fc-lechuga.png"
-        },
-        {
-          "name": "D. Soriano «Olivo»",
-          "role": "Defensa",
-          "image": "los-troncos-fc-d-soriano-«olivo».png"
-        },
-        {
-          "name": "S. Sánchez «Drago»",
-          "role": "Medio",
-          "image": "los-troncos-fc-s-sánchez-«drago».png"
-        },
-        {
-          "name": "Noel L. «Ahuehuete»",
-          "role": "Medio",
-          "image": "los-troncos-fc-noel-l-«ahuehuete».png"
-        },
-        {
-          "name": "X. Molas «Mimosa»",
-          "role": "Medio",
-          "image": "los-troncos-fc-x-molas-«mimosa».png"
-        },
-        {
-          "name": "R. Martínez «Bonsai»",
-          "role": "Delantero",
-          "image": "los-troncos-fc-r-martínez-«bonsai».png"
-        },
-        {
-          "name": "Dorkis P. «Mango»",
-          "role": "Delantero",
-          "image": "los-troncos-fc-dorkis-p-«mango».png"
-        },
-        {
-          "name": "I. Nuevo «Ficus»",
-          "role": "Medio",
-          "image": "los-troncos-fc-i-nuevo-«ficus».png"
-        },
-        {
-          "name": "M. Arús «Pino»",
-          "role": "Portero",
-          "image": "los-troncos-fc-m-arús-«pino».png"
-        }
-      ],
-      "coachInfo": {
-        "name": "Pol Font",
-        "image": "pol-font.png"
-      },
-      "president": {
-        "id": "perxitaa",
-        "name": "Perxitaa",
-        "image": "https://kings-league-api.loadko.workers.dev/static/presidents/perxitaa.png",
-        "teamId": "los-troncos-fc"
-      }
-    },
-    "wins": 1,
-    "losses": 1,
+    "losses": 2,
     "goalsScored": 8,
-    "goalsConceded": 8,
-    "cardsYellow": 1,
-    "cardsRed": 0
-  },
-  {
-    "team": {
-      "id": "porcinos-fc",
-      "name": "Porcinos FC",
-      "image": "https://kings-league-api.loadko.workers.dev/static/logos/porcinos-fc.svg",
-      "url": "",
-      "channel": "https://twitch.tv/ibai",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/ibai",
-        "https://twitter.com/FCPorcinos"
-      ],
-      "players": [
-        {
-          "name": "Tamudo",
-          "role": "jugador 11",
-          "image": "porcinos-fc-tamudo.png"
-        },
-        {
-          "name": "J. Segovia",
-          "role": "Portero",
-          "image": "porcinos-fc-j-segovia.png"
-        },
-        {
-          "name": "G.Cichero",
-          "role": "Defensa",
-          "image": "porcinos-fc-gcichero.png"
-        },
-        {
-          "name": "David L.L.",
-          "role": "Defensa",
-          "image": "porcinos-fc-david-ll..png"
-        },
-        {
-          "name": "Toti",
-          "role": "Medio",
-          "image": "porcinos-fc-toti.png"
-        },
-        {
-          "name": "A.Ripol",
-          "role": "Medio",
-          "image": "porcinos-fc-aripol.png"
-        },
-        {
-          "name": "Kilian",
-          "role": "Delantero",
-          "image": "porcinos-fc-kilian.png"
-        },
-        {
-          "name": "J. Blanco",
-          "role": "Delantero",
-          "image": "porcinos-fc-j-blanco.png"
-        },
-        {
-          "name": "Lil Pizza",
-          "role": "Defensa",
-          "image": "porcinos-fc-lil-pizza.png"
-        },
-        {
-          "name": "Lao",
-          "role": "Medio",
-          "image": "porcinos-fc-lao.png"
-        },
-        {
-          "name": "Sergi",
-          "role": "Portero",
-          "image": "porcinos-fc-sergi.png"
-        }
-      ],
-      "coachInfo": {
-        "name": "Juvenal Edjogo-Owono",
-        "image": "juvenal-edjogoowono.png"
-      },
-      "president": {
-        "id": "ibai-llanos",
-        "name": "Ibai Llanos",
-        "image": "https://kings-league-api.loadko.workers.dev/static/presidents/ibai-llanos.png",
-        "teamId": "porcinos-fc"
-      }
-    },
-    "wins": 1,
-    "losses": 1,
-    "goalsScored": 7,
     "goalsConceded": 7,
     "cardsYellow": 1,
     "cardsRed": 0
@@ -694,10 +694,182 @@
       }
     },
     "wins": 1,
-    "losses": 1,
-    "goalsScored": 7,
-    "goalsConceded": 7,
+    "losses": 2,
+    "goalsScored": 9,
+    "goalsConceded": 9,
     "cardsYellow": 0,
+    "cardsRed": 0
+  },
+  {
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "https://kings-league-api.loadko.workers.dev/static/logos/aniquiladores.svg",
+      "url": "",
+      "channel": "https://twitch.tv/juansguarnizo",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.twitch.tv/juansguarnizo"
+      ],
+      "players": [
+        {
+          "name": "",
+          "role": "jugador 11",
+          "image": "aniquiladores-fc-.png"
+        },
+        {
+          "name": "Dani P.",
+          "role": "Portero",
+          "image": "aniquiladores-fc-dani-p.png"
+        },
+        {
+          "name": "Galvany",
+          "role": "Medio",
+          "image": "aniquiladores-fc-galvany.png"
+        },
+        {
+          "name": "Andrés",
+          "role": "Defensa",
+          "image": "aniquiladores-fc-andrs.png"
+        },
+        {
+          "name": "Bernat",
+          "role": "Medio",
+          "image": "aniquiladores-fc-bernat.png"
+        },
+        {
+          "name": "Pau Mañé",
+          "role": "Delantero",
+          "image": "aniquiladores-fc-pau-maé.png"
+        },
+        {
+          "name": "Jorquera",
+          "role": "Defensa",
+          "image": "aniquiladores-fc-jorquera.png"
+        },
+        {
+          "name": "Gilles V.",
+          "role": "Medio",
+          "image": "aniquiladores-fc-gilles-v.png"
+        },
+        {
+          "name": "Jadir",
+          "role": "Defensa",
+          "image": "aniquiladores-fc-jadir.png"
+        },
+        {
+          "name": "Roger",
+          "role": "Medio",
+          "image": "aniquiladores-fc-roger.png"
+        },
+        {
+          "name": "X.Morales",
+          "role": "Portero",
+          "image": "aniquiladores-fc-xmorales.png"
+        }
+      ],
+      "coachInfo": {
+        "name": "Sergio Verdirame",
+        "image": "sergio-verdirame.png"
+      },
+      "president": {
+        "id": "juan-guarnizo",
+        "name": "Juan Guarnizo",
+        "image": "https://kings-league-api.loadko.workers.dev/static/presidents/juan-guarnizo.png",
+        "teamId": "aniquiladores-fc"
+      }
+    },
+    "wins": 1,
+    "losses": 2,
+    "goalsScored": 7,
+    "goalsConceded": 9,
+    "cardsYellow": 1,
+    "cardsRed": 0
+  },
+  {
+    "team": {
+      "id": "xbuyer-team",
+      "name": "XBUYER TEAM",
+      "image": "https://kings-league-api.loadko.workers.dev/static/logos/xbuyer.svg",
+      "url": "",
+      "channel": "https://www.youtube.com/xbuyer",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.youtube.com/xbuyer"
+      ],
+      "players": [
+        {
+          "name": "C. Castro",
+          "role": "jugador 11",
+          "image": "xbuyer-team-c-castro.png"
+        },
+        {
+          "name": "Capi",
+          "role": "Portero",
+          "image": "xbuyer-team-capi.png"
+        },
+        {
+          "name": "Poch",
+          "role": "Delantero",
+          "image": "xbuyer-team-poch.png"
+        },
+        {
+          "name": "Iñaki",
+          "role": "Medio",
+          "image": "xbuyer-team-iaki.png"
+        },
+        {
+          "name": "Dani",
+          "role": "Defensa",
+          "image": "xbuyer-team-dani.png"
+        },
+        {
+          "name": "Granero",
+          "role": "Delantero",
+          "image": "xbuyer-team-granero.png"
+        },
+        {
+          "name": "Goran",
+          "role": "Medio",
+          "image": "xbuyer-team-goran.png"
+        },
+        {
+          "name": "Bañuls",
+          "role": "Defensa",
+          "image": "xbuyer-team-bauls.png"
+        },
+        {
+          "name": "Franc",
+          "role": "Medio",
+          "image": "xbuyer-team-franc.png"
+        },
+        {
+          "name": "B. Sierra",
+          "role": "Delantero",
+          "image": "xbuyer-team-b-sierra.png"
+        },
+        {
+          "name": "Sep",
+          "role": "Portero",
+          "image": "xbuyer-team-sep.png"
+        }
+      ],
+      "coachInfo": {
+        "name": "Victor González",
+        "image": "victor-gonzlez.png"
+      },
+      "president": {
+        "id": "hnos-buyer",
+        "name": "Hnos. Buyer",
+        "image": "https://kings-league-api.loadko.workers.dev/static/presidents/hnos-buyer.png",
+        "teamId": "xbuyer-team"
+      }
+    },
+    "wins": 1,
+    "losses": 2,
+    "goalsScored": 5,
+    "goalsConceded": 8,
+    "cardsYellow": 3,
     "cardsRed": 0
   },
   {
@@ -783,182 +955,10 @@
       }
     },
     "wins": 0,
-    "losses": 2,
-    "goalsScored": 4,
-    "goalsConceded": 7,
+    "losses": 3,
+    "goalsScored": 7,
+    "goalsConceded": 12,
     "cardsYellow": 2,
-    "cardsRed": 0
-  },
-  {
-    "team": {
-      "id": "xbuyer-team",
-      "name": "XBUYER TEAM",
-      "image": "https://kings-league-api.loadko.workers.dev/static/logos/xbuyer.svg",
-      "url": "",
-      "channel": "https://www.youtube.com/xbuyer",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.youtube.com/xbuyer"
-      ],
-      "players": [
-        {
-          "name": "C. Castro",
-          "role": "jugador 11",
-          "image": "xbuyer-team-c-castro.png"
-        },
-        {
-          "name": "Capi",
-          "role": "Portero",
-          "image": "xbuyer-team-capi.png"
-        },
-        {
-          "name": "Poch",
-          "role": "Delantero",
-          "image": "xbuyer-team-poch.png"
-        },
-        {
-          "name": "Iñaki",
-          "role": "Medio",
-          "image": "xbuyer-team-iaki.png"
-        },
-        {
-          "name": "Dani",
-          "role": "Defensa",
-          "image": "xbuyer-team-dani.png"
-        },
-        {
-          "name": "Granero",
-          "role": "Delantero",
-          "image": "xbuyer-team-granero.png"
-        },
-        {
-          "name": "Goran",
-          "role": "Medio",
-          "image": "xbuyer-team-goran.png"
-        },
-        {
-          "name": "Bañuls",
-          "role": "Defensa",
-          "image": "xbuyer-team-bauls.png"
-        },
-        {
-          "name": "Franc",
-          "role": "Medio",
-          "image": "xbuyer-team-franc.png"
-        },
-        {
-          "name": "B. Sierra",
-          "role": "Delantero",
-          "image": "xbuyer-team-b-sierra.png"
-        },
-        {
-          "name": "Sep",
-          "role": "Portero",
-          "image": "xbuyer-team-sep.png"
-        }
-      ],
-      "coachInfo": {
-        "name": "Victor González",
-        "image": "victor-gonzlez.png"
-      },
-      "president": {
-        "id": "hnos-buyer",
-        "name": "Hnos. Buyer",
-        "image": "https://kings-league-api.loadko.workers.dev/static/presidents/hnos-buyer.png",
-        "teamId": "xbuyer-team"
-      }
-    },
-    "wins": 0,
-    "losses": 2,
-    "goalsScored": 3,
-    "goalsConceded": 6,
-    "cardsYellow": 1,
-    "cardsRed": 0
-  },
-  {
-    "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "https://kings-league-api.loadko.workers.dev/static/logos/aniquiladores.svg",
-      "url": "",
-      "channel": "https://twitch.tv/juansguarnizo",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/juansguarnizo"
-      ],
-      "players": [
-        {
-          "name": "",
-          "role": "jugador 11",
-          "image": "aniquiladores-fc-.png"
-        },
-        {
-          "name": "Dani P.",
-          "role": "Portero",
-          "image": "aniquiladores-fc-dani-p.png"
-        },
-        {
-          "name": "Galvany",
-          "role": "Medio",
-          "image": "aniquiladores-fc-galvany.png"
-        },
-        {
-          "name": "Andrés",
-          "role": "Defensa",
-          "image": "aniquiladores-fc-andrs.png"
-        },
-        {
-          "name": "Bernat",
-          "role": "Medio",
-          "image": "aniquiladores-fc-bernat.png"
-        },
-        {
-          "name": "Pau Mañé",
-          "role": "Delantero",
-          "image": "aniquiladores-fc-pau-maé.png"
-        },
-        {
-          "name": "Jorquera",
-          "role": "Defensa",
-          "image": "aniquiladores-fc-jorquera.png"
-        },
-        {
-          "name": "Gilles V.",
-          "role": "Medio",
-          "image": "aniquiladores-fc-gilles-v.png"
-        },
-        {
-          "name": "Jadir",
-          "role": "Defensa",
-          "image": "aniquiladores-fc-jadir.png"
-        },
-        {
-          "name": "Roger",
-          "role": "Medio",
-          "image": "aniquiladores-fc-roger.png"
-        },
-        {
-          "name": "X.Morales",
-          "role": "Portero",
-          "image": "aniquiladores-fc-xmorales.png"
-        }
-      ],
-      "coachInfo": {
-        "name": "Sergio Verdirame",
-        "image": "sergio-verdirame.png"
-      },
-      "president": {
-        "id": "juan-guarnizo",
-        "name": "Juan Guarnizo",
-        "image": "https://kings-league-api.loadko.workers.dev/static/presidents/juan-guarnizo.png",
-        "teamId": "aniquiladores-fc"
-      }
-    },
-    "wins": 0,
-    "losses": 2,
-    "goalsScored": 3,
-    "goalsConceded": 8,
-    "cardsYellow": 0,
     "cardsRed": 0
   },
   {
@@ -1042,10 +1042,10 @@
       }
     },
     "wins": 0,
-    "losses": 2,
-    "goalsScored": 1,
-    "goalsConceded": 6,
-    "cardsYellow": 3,
+    "losses": 3,
+    "goalsScored": 3,
+    "goalsConceded": 9,
+    "cardsYellow": 4,
     "cardsRed": 0
   }
 ]
