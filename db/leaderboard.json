@@ -165,10 +165,10 @@
         "teamId": "porcinos-fc"
       }
     },
-    "wins": 5,
+    "wins": 6,
     "losses": 1,
-    "goalsScored": 22,
-    "goalsConceded": 15,
+    "goalsScored": 27,
+    "goalsConceded": 16,
     "cardsYellow": 1,
     "cardsRed": 0
   },
@@ -513,9 +513,9 @@
       }
     },
     "wins": 3,
-    "losses": 3,
-    "goalsScored": 17,
-    "goalsConceded": 18,
+    "losses": 4,
+    "goalsScored": 19,
+    "goalsConceded": 21,
     "cardsYellow": 1,
     "cardsRed": 0
   },
@@ -865,10 +865,10 @@
         "teamId": "rayo-barcelona"
       }
     },
-    "wins": 2,
+    "wins": 3,
     "losses": 4,
-    "goalsScored": 17,
-    "goalsConceded": 21,
+    "goalsScored": 20,
+    "goalsConceded": 23,
     "cardsYellow": 0,
     "cardsRed": 0
   },
