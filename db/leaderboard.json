@@ -78,11 +78,11 @@
         "teamId": "saiyans-fc"
       }
     },
-    "wins": 7,
-    "losses": 4,
-    "goalsScored": 21,
-    "goalsConceded": 18,
-    "cardsYellow": 3,
+    "wins": 0,
+    "losses": 0,
+    "goalsScored": 0,
+    "goalsConceded": 0,
+    "cardsYellow": 0,
     "cardsRed": 0
   },
   {
@@ -164,11 +164,11 @@
         "teamId": "ultimate-mostoles"
       }
     },
-    "wins": 8,
-    "losses": 3,
-    "goalsScored": 34,
-    "goalsConceded": 27,
-    "cardsYellow": 7,
+    "wins": 0,
+    "losses": 0,
+    "goalsScored": 0,
+    "goalsConceded": 0,
+    "cardsYellow": 0,
     "cardsRed": 0
   },
   {
@@ -251,11 +251,11 @@
         "teamId": "porcinos-fc"
       }
     },
-    "wins": 7,
-    "losses": 4,
-    "goalsScored": 37,
-    "goalsConceded": 26,
-    "cardsYellow": 11,
+    "wins": 0,
+    "losses": 0,
+    "goalsScored": 0,
+    "goalsConceded": 0,
+    "cardsYellow": 0,
     "cardsRed": 0
   },
   {
@@ -337,11 +337,11 @@
         "teamId": "kunisports"
       }
     },
-    "wins": 7,
-    "losses": 4,
-    "goalsScored": 23,
-    "goalsConceded": 22,
-    "cardsYellow": 1,
+    "wins": 0,
+    "losses": 0,
+    "goalsScored": 0,
+    "goalsConceded": 0,
+    "cardsYellow": 0,
     "cardsRed": 0
   },
   {
@@ -426,11 +426,11 @@
         "teamId": "el-barrio"
       }
     },
-    "wins": 5,
-    "losses": 6,
-    "goalsScored": 33,
-    "goalsConceded": 25,
-    "cardsYellow": 8,
+    "wins": 0,
+    "losses": 0,
+    "goalsScored": 0,
+    "goalsConceded": 0,
+    "cardsYellow": 0,
     "cardsRed": 0
   },
   {
@@ -515,11 +515,11 @@
         "teamId": "los-troncos-fc"
       }
     },
-    "wins": 7,
-    "losses": 4,
-    "goalsScored": 40,
-    "goalsConceded": 34,
-    "cardsYellow": 6,
+    "wins": 0,
+    "losses": 0,
+    "goalsScored": 0,
+    "goalsConceded": 0,
+    "cardsYellow": 0,
     "cardsRed": 0
   },
   {
@@ -601,10 +601,10 @@
         "teamId": "xbuyer-team"
       }
     },
-    "wins": 6,
-    "losses": 5,
-    "goalsScored": 25,
-    "goalsConceded": 25,
+    "wins": 0,
+    "losses": 0,
+    "goalsScored": 0,
+    "goalsConceded": 0,
     "cardsYellow": 0,
     "cardsRed": 0
   },
@@ -690,11 +690,11 @@
         "teamId": "1k"
       }
     },
-    "wins": 5,
-    "losses": 6,
-    "goalsScored": 32,
-    "goalsConceded": 34,
-    "cardsYellow": -2,
+    "wins": 0,
+    "losses": 0,
+    "goalsScored": 0,
+    "goalsConceded": 0,
+    "cardsYellow": 0,
     "cardsRed": 0
   },
   {
@@ -776,11 +776,11 @@
         "teamId": "aniquiladores-fc"
       }
     },
-    "wins": 5,
-    "losses": 6,
-    "goalsScored": 24,
-    "goalsConceded": 28,
-    "cardsYellow": -4,
+    "wins": 0,
+    "losses": 0,
+    "goalsScored": 0,
+    "goalsConceded": 0,
+    "cardsYellow": 0,
     "cardsRed": 0
   },
   {
@@ -863,11 +863,11 @@
         "teamId": "pio-fc"
       }
     },
-    "wins": 4,
-    "losses": 7,
-    "goalsScored": 25,
-    "goalsConceded": 24,
-    "cardsYellow": 1,
+    "wins": 0,
+    "losses": 0,
+    "goalsScored": 0,
+    "goalsConceded": 0,
+    "cardsYellow": 0,
     "cardsRed": 0
   },
   {
@@ -952,11 +952,11 @@
         "teamId": "rayo-barcelona"
       }
     },
-    "wins": 3,
-    "losses": 8,
-    "goalsScored": 27,
-    "goalsConceded": 40,
-    "cardsYellow": -13,
+    "wins": 0,
+    "losses": 0,
+    "goalsScored": 0,
+    "goalsConceded": 0,
+    "cardsYellow": 0,
     "cardsRed": 0
   },
   {
@@ -1041,11 +1041,11 @@
         "teamId": "jijantes-fc"
       }
     },
-    "wins": 1,
-    "losses": 10,
-    "goalsScored": 23,
-    "goalsConceded": 41,
-    "cardsYellow": -18,
+    "wins": 0,
+    "losses": 0,
+    "goalsScored": 0,
+    "goalsConceded": 0,
+    "cardsYellow": 0,
     "cardsRed": 0
   }
 ]
